@@ -19,14 +19,21 @@ Mattéo Rispoli https://github.com/Tohakuu
 
 ## 📋️ Instructions du projet
 
-*Rien pour l'instant...*
+### Git - Configuration
+  
+```bash
+# Définit le chemin vers les hooks versionnés.
+git config --local core.hooksPath bin/hooks
+```
 
 ## 📝 Tâches
 
 - [x] **.gitignore** : Initialisation du `.gitignore`.
 - [x] **README.md** : Initialisation du `README.md`.
 - [x] **.editorconfig** : Initialisation du `.editorconfig`.
-- [ ] **Hooks** : N'autoriser qu'un commit par branche.
+- [x] **Hooks** : N'autoriser qu'un commit par branche.
+  - [x] Utilisation des scripts versionnés.
+  - [ ] Automatiser la configuration.
 - [ ] **Automatisation des hooks** : N'autoriser qu'un commit par `bin/hooks`.
 - [ ] **GitHub Actions** : GitHub met à disposition un outil d’automatisation permettant notamment de réaliser des tâches de CI/CI.
 - [ ] **Rédaction des REX** :  conflits et modifications en parallèle..
